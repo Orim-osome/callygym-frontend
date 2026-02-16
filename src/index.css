@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+ html {
+  font-size: 65.5%; 
+  scroll-behavior: smooth !important;
+} 
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #333;
+  scroll-behavior: smooth !important;
+} 
+
+.container { 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background: #FF6B00;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #00C853;
+}
+
+section {
+  padding: 80px 0;
+} 
+
+
+@media (max-width: 768px) {
+  .container { 
+    padding: 0 10px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  .btn-primary {
+    padding: 1.8rem 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 6rem;
+  }
+}
