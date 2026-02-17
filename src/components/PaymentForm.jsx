@@ -34,7 +34,7 @@ export default function PaymentForm({
 
     try {
       const response = await fetch(
-        "http://localhost:3000/api/payment/initialize",
+        "https://callygym-backend.onrender.com/api/payment/initialize",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -78,7 +78,7 @@ export default function PaymentForm({
           // Save booking to backend
           try {
             const bookingRes = await fetch(
-              "http://localhost:3000/api/bookings",
+              "https://callygym-backend.onrender.com/api/bookings",
               {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
