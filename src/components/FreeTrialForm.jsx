@@ -22,7 +22,7 @@ export default function FreeTrialForm({ onClose }) {
 
     try {
       const response = await fetch(
-        "http://callygym-backend.onrender.com/api/free-trial",
+        "https://callygym-backend.onrender.com/api/free-trial",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

@@ -105,7 +105,7 @@ export default function Home() {
                 "Best gym in Calabar! The trainers are amazing and the vibe is
                 motivating."
               </p>
-              <strong>– Lilian N., Member</strong>
+              <strong>– Peter B, Member</strong>
             </div>
             <div className="testimonial-card">
               <p>
@@ -119,7 +119,7 @@ export default function Home() {
                 "Clean, modern, and welcoming. Finally a gym I actually enjoy
                 going to!"
               </p>
-              <strong>– Peter B., Member</strong>
+              <strong>– Lilian N., Member</strong>
             </div>
             <div className="testimonial-card">
               <p>
@@ -127,7 +127,7 @@ export default function Home() {
                 that lifts your mood the moment you walk in and keeps you
                 committed to your goals."
               </p>
-              <strong>– Testimony O., Member</strong>
+              <strong>– Martins O., Member</strong>
             </div>
             <div className="testimonial-card">
               <p>
